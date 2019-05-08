@@ -1,0 +1,28 @@
+.super-counter-container {
+    border: 1px solid;
+    height: auto;
+    margin: 10px;
+    width: auto;
+    display: inline-block;
+}
+
+.super-counter {
+    font-weight: bold;
+}
+
+button {
+    border-radius: 5px;
+    margin: 5px;
+    width: 200px;
+    float: left;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.increment {
+    background-color: lightskyblue;
+}
+
+.decrement {
+    background-color: gray;
+}

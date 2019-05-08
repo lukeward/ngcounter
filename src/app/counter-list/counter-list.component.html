@@ -1,0 +1,9 @@
+<div>
+  <button (click)="addCounter()">Add Counter</button>
+</div>
+
+<super-duper-counter *ngFor="let counter of superDuperCounters"></super-duper-counter>
+
+<super-counter *ngFor="let counter of superCounters"></super-counter>
+
+<counter *ngFor="let counter of counters" counter="counter"></counter>
