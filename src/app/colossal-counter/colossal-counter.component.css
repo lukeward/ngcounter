@@ -1,0 +1,12 @@
+.counter-container {
+    border: 1px solid;
+    height: auto;
+    margin: 10px;
+    width: 100px;
+    float: left;
+}
+
+.counter {
+    vertical-align: middle;
+    font-weight: bold;
+}

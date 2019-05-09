@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CounterDetailComponent implements OnInit {
   counter: number;
-  
+
   constructor() { 
     this.counter = 0;
   }
@@ -20,16 +20,6 @@ export class CounterDetailComponent implements OnInit {
     if (this.counter > 0) {
       this.counter -= 1;  
     }  
-  }
-
-  decrementButtonConfig() {
-    if (this.counter == 0) {
-      const counterRef = document.querySelector('.decrement')
-      counterRef.className = "decrement-disabled"
-    } else {
-      const counterRef = document.querySelector('.decrement-disabled')
-      counterRef.className = "decrement"
-    }
   }
 
   ngOnInit() {

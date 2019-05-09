@@ -1,15 +1,16 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-colossal-counter',
+  selector: 'colossal-counter',
   templateUrl: './colossal-counter.component.html',
   styleUrls: ['./colossal-counter.component.css']
 })
 export class ColossalCounterComponent implements OnInit {
   counter: number;
-  
+
   constructor() {
     this.counter = 0
+    this.startCounter()
    }
 
    startCounter() {

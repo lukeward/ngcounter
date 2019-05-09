@@ -2,8 +2,10 @@
   <button (click)="addCounter()">Add Counter</button>
 </div>
 
+<colossal-counter *ngFor="let counter of colossalCounters"></colossal-counter>
+
 <super-duper-counter *ngFor="let counter of superDuperCounters"></super-duper-counter>
 
-<super-counter *ngFor="let counter of superCounters"></super-counter>
+<super-counter *ngFor="let counter of superCounters" [counter]="prevCounters"></super-counter>
 
-<counter *ngFor="let counter of counters" counter="counter"></counter>
+<counter *ngFor="let counter of counters"></counter>
